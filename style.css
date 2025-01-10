@@ -109,7 +109,3 @@ nav {
   display: flex;
   gap: 30px;
 }
-audio::-webkit-media-controls {
-  display: none;
-  color: rgba(245, 222, 179, 0);
-}
