@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 40px;
+  gap: 30px;
+}
+body {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+}
+main {
+  background: lightblue;
+  min-height: 200px;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.navButton:hover {
+  text-decoration: underline;
+}
+
+.readMore {
+  background-color: black;
+  border: 2px white;
+  height: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.picture1 {
+  background-image: url(https://www.chromethemer.com/download/hd-wallpapers/galaxy-space-3840x2160.jpg);
+  background-position: center;
+}
+.feature {
+  height: 100vh;
+}
+
+.picture2 {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/stars-galaxy-3840x2160-10307.jpg);
+  background-position: center;
+}
+
+.picture3 {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/022/774/536/large_2x/space-wallpaper-rocket-launch-explosion-with-fire-exploding-illustration-ai-generative-free-photo.jpg);
+  background-position: center;
+}
+.picture4 {
+  background-image: url(https://www.pixground.com/black-hole-in-the-vastness-of-space-4k-desktop-wallpaper/?download-img=4k);
+  background-position: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+div {
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+h2 {
+  color: white;
+}
+.button {
+  padding: 10px;
+  border: 2px white solid;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+.backToTop {
+  position: absolute;
+  color: red;
+  background-color: rgba(255, 255, 255, 0);
+  top: 150px;
+  left: 150px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+audio::-webkit-media-controls {
+  display: none;
+  color: rgba(245, 222, 179, 0);
+}
