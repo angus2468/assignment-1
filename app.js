@@ -5,4 +5,3 @@ function unmute() {
 }
 
 unmute();
-unmute();
