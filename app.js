@@ -5,3 +5,4 @@ function unmute() {
 }
 
 unmute();
+audio.play();
