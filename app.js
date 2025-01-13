@@ -4,4 +4,6 @@ function unmute() {
   audio.muted = !audio.muted;
 }
 unmute();
-everything.onmouseover = play();
+everything.onmouseover = function play() {
+  audio.play();
+};
