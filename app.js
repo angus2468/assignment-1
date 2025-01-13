@@ -1,8 +1,7 @@
 let audio = document.querySelector("audio");
-
+let everything = document.querySelector("body");
 function unmute() {
   audio.muted = !audio.muted;
 }
-
 unmute();
-audio.play();
+everything.onmouseover = play();
